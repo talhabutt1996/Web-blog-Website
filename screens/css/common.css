@@ -1,0 +1,410 @@
+body {
+    font-size: 20px;
+    height: 89%;
+}
+
+html {
+    height: 100%;
+}
+
+.container-fluid {
+    padding: 0;
+    height: 100%;
+}
+
+.row {
+    margin: 0;
+}
+
+.sidebar-row{
+    height: 100%;
+}
+
+/************************
+      top nav bar
+*************************/
+.navbar-container {
+    padding: 0;
+}
+
+.top-navbar {
+    background: #2d1690;
+    text-align: center;
+    padding: 6px 0 0 4px;
+    position: relative;
+}
+
+.top-navbar img {
+    width: 60px;
+    vertical-align: top;
+}
+
+.top-navbar p {
+    display: inline-block;
+    font-size: 190%;
+    color: #fff;
+    margin: 0 0 10px;
+}
+
+/**********************
+         Sidebar
+***********************/
+.sidebar-container {
+    padding: 40px 4px 0 15px;
+    overflow: hidden;
+    height: 100%;
+    background: #371ab2;
+    font-size: 90%;
+    transition: all 1s ease-out;
+}
+
+.sidebar-container a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar-container a:hover {
+    color: #eee;
+}
+
+.sidebar-container ul {
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-container ul li {
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+.sidebar-container ul li span {
+    vertical-align: middle;
+}
+
+ul li img {
+    width: 30px;
+    margin: 0 10px 0 0;
+}
+
+.small-icon {
+    width: 23px;
+    margin: 0 17px 0 0;
+}
+
+.large-icon {
+    width: 35px;
+    margin: 0 5px 0 0;
+}
+
+.sidebar-toggler {
+    background: #2d1690;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    padding: 0 0 0 10px;
+    display: none;
+}
+
+#menu-icon {
+    width: 40px;
+}
+
+button:focus {
+    outline: none;
+}
+
+@media only screen and (max-width: 993px) {
+    .sidebar-container {
+        max-width: 0;
+        padding: 0;
+    }
+
+    .sidebar-toggler {
+        display: inherit;
+        top: 17px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .navbar-container .top-navbar p {
+        font-size: 30px;
+    }
+
+    .navbar-container .top-navbar img {
+        width: 50px;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    .sidebar-toggler {
+        top: 11px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+
+    .navbar-container .top-navbar p {
+        font-size: 25px;
+    }
+
+    #menu-icon {
+        width: 25px;
+    }
+}
+
+.collapse-sidebar {
+    max-width: 224.828px;
+    padding: 40px 4px 0 15px;
+}
+
+.active-tab {
+    background: #2d1690;
+    border-radius: 8px;
+}
+
+/*******************************
+        Content Area
+********************************/
+.content-area p {
+    font-size: 200%;
+    margin: 0;
+}
+
+.content-area table {
+    margin: 20px 0 0 0;
+    text-align: center;
+    font-size: 85%;
+}
+
+.content-area table thead tr {
+    background: #eee;
+}
+
+.content-area tbody tr:nth-of-type(even) {
+    background: #eee;
+}
+
+
+/***********************
+        blog navbar
+************************/
+
+#navbar-content form input {
+    margin-right: 9px;
+}
+
+#blog-navbar {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+#navbar-content form {
+    margin-bottom: 10px;
+}
+
+.ion-navicon-round {
+    font-size: 35px;
+    color: #fff;
+    padding: 0;
+    position: relative;
+    top: -6px;
+}
+
+@media only screen and (max-width: 595px) {
+
+    #blog-navbar{
+        padding-right: 0;
+        padding-left: 11px;
+    }
+
+    #blog-navbar .navbar-brand p {
+        font-size: 94%;
+    }
+}
+
+@media only screen and (max-width: 486px) {
+
+    #blog-navbar .navbar-brand p {
+        font-size: 100%;
+    }
+}
+
+
+/**************************
+       Blog Body
+***************************/
+.blog-body {
+    padding-top: 3%;
+}
+
+@media only screen and (max-width: 767px) {
+
+/*
+    .blog-row {
+        padding-top: 30px;
+    }
+*/
+}
+
+
+/**************************
+       Post Container
+***************************/
+.post-container {
+    background: #e7e3e3;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+.post-container img {
+    width: 100%;
+}
+
+.post-title {
+    font-size: 220%;
+    margin: 10px 0 0;
+    color: #2d1690;
+    font-weight: bold;
+}
+
+.post-category,
+.post-publish-date {
+    color: #878585;
+}
+
+.post-category {
+    margin-right: 30px;
+}
+
+.post-container p {
+    font-size: 85%;
+}
+
+
+/***********************************
+     Post Categories Container
+************************************/
+.post-categories-container {
+    background: #e7e3e3;
+    border-radius: 9px;
+    padding: 0 0 13px 0;
+}
+
+.post-categories-container h2 {
+    background: #2d1690;
+    color: #fff;
+    font-size: 115%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.post-categories-container a {
+    display: block;
+    padding: 0 30px;
+    font-size: 115%;
+}
+
+
+/***********************************
+     Recent Posts Container
+************************************/
+.recent-posts-container {
+    background: #e7e3e3;
+    border-radius: 9px;
+    padding: 0 0 5px 0;
+}
+
+.recent-posts-container h2 {
+    background: #2d1690;
+    color: #fff;
+    font-size: 115%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.recent-post {
+    background: #fff;
+    padding: 10px;
+    margin: 20px;
+}
+
+.recent-post img {
+    width: 100%;
+}
+
+.recent-post p {
+    margin: 0;
+    font-size: 82%;
+    padding: 5px 0 0 0;
+}
+
+.recent-post small {
+    font-size: 70%;
+    color: #8c8c8c;
+}
+
+
+/**************************
+       Blog Body
+***************************/
+.second-row {
+    padding-top: 50px;
+}
+
+
+/***************************
+         Blog Footer
+****************************/
+.blog-footer {
+    background: #2d1690;
+    padding: 23px 0 0 0;
+    text-align: center;
+    color: #fff;
+}
+
+.blog-footer h1 {
+    font-size: 150%;
+}
+
+.blog-footer i.ion-social-facebook {
+    background: darkblue;
+    padding: 5px 11px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.blog-footer i.ion-at {
+    font-size: 20px;
+}
+
+.blog-footer ul {
+    list-style: none;
+    text-align: left;
+    display: inline-block;
+    padding: 0 0 0 15px;
+}
+
+.blog-footer li {
+    margin-bottom: 10px;
+    font-size: 80%;
+}
+
+.email-link {
+    padding-left: 4px;
+}
+
+.email-link i {
+    margin-right: 5px;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}

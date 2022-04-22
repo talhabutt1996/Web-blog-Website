@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="../Resources/Bootstrap v4.1/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="../css/admin dashboard.css"/>
+        <link rel="stylesheet" href="../css/common.css"/>
+        <title>Admin Home</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 navbar-container">
+                    <nav class="top-navbar">
+                        <button class="sidebar-toggler">
+                            <img src="../Resources/images/hamburger.png" alt="image" id="menu-icon"/>
+                        </button>
+                        <img src="../Resources/images/logo.png" alt="logo" id="logo"/>
+                        <p>Admin Panel</p>
+                    </nav><!--end of navbar-->
+                </div><!--end of first column-->
+            </div><!--end of first row-->
+
+            <div class="row sidebar-row">
+                <div class="col-lg-2 sidebar-container">
+                    <ul>
+                        <li class="active-tab">
+                            <a href="#">
+                                <img src="../Resources/images/dashboard.png" alt="image" class="large-icon">
+                                <span>Dashboard</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="add new post.html">
+                                <img src="../Resources/images/new post.png" alt="image">
+                                <span>Add New Post</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="admin categories.html">
+                                <img src="../Resources/images/categories.png" alt="image">
+                                <span>Categories</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="admin access management.html">
+                                <img src="../Resources/images/manage admins.png" alt="image" class="small-icon">
+                                <span>Manage Admins</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="admin comments.html">
+                                <img src="../Resources/images/comments.png" alt="image">
+                                <span>Comments</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="blog home.html">
+                                <img src="../Resources/images/live blog.png" alt="image">
+                                <span>Live blog</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="admin login.html">
+                                <img src="../Resources/images/logout.png" alt="image">
+                                <span>Logout</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div><!--end of first column-->
+
+                <div class="col-lg-10 content-area">
+                    <p>Dashboard</p>
+                    <p class="welcome-msg">Welcome Jane Doe!</p>
+
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-hover table-sm">
+                            <thead>
+                                <tr>
+                                    <th>No.</th>
+                                    <th>Post Title</th>
+                                    <th>Date &amp; Time</th>
+                                    <th>Author</th>
+                                    <th>Category</th>
+                                    <th>Banner</th>
+                                    <th>Comments</th>
+                                    <th>Action</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>
+                                        <a href="#">Css3 Flexbox</a>
+                                    </td>
+                                    <td>April 20, 2018</td>
+                                    <td>Jane</td>
+                                    <td>CSS</td>
+                                    <td>
+                                        <img src="../Resources/images/css banner.jpg" alt="CSS3 Flexbox">
+                                    </td>
+                                    <td>
+                                        <span class="badge badge-danger">2</span>
+                                        <span class="badge badge-success">6</span>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-warning">Edit</button>
+                                        <button class="btn btn-danger">Delete</button>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-success">Preview</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>
+                                        <a href="#">Javascript ES6</a>
+                                    </td>
+                                    <td>April 21, 2018</td>
+                                    <td>Jane</td>
+                                    <td>Javascript</td>
+                                    <td>
+                                        <img src="../Resources/images/js banner.png" alt="Javascript ES6">
+                                    </td>
+                                    <td>
+                                        <span class="badge badge-danger">3</span>
+                                        <span class="badge badge-success">1</span>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-warning">Edit</button>
+                                        <button class="btn btn-danger">Delete</button>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-success">Preview</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>
+                                        <a href="#">Css3 Animation</a>
+                                    </td>
+                                    <td>April 20, 2018</td>
+                                    <td>Jane</td>
+                                    <td>CSS</td>
+                                    <td>
+                                        <img src="../Resources/images/css banner.jpg" alt="CSS3 Flexbox">
+                                    </td>
+                                    <td>
+                                        <span class="badge badge-danger">2</span>
+                                        <span class="badge badge-success">2</span>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-warning">Edit</button>
+                                        <button class="btn btn-danger">Delete</button>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-success">Preview</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>
+                                        <a href="#">Javascript DOM</a>
+                                    </td>
+                                    <td>April 23, 2018</td>
+                                    <td>Jane</td>
+                                    <td>Javascript</td>
+                                    <td>
+                                        <img src="../Resources/images/js banner.png" alt="Javascript DOM">
+                                    </td>
+                                    <td>
+                                        <span class="badge badge-danger">2</span>
+                                        <span class="badge badge-success">6</span>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-warning">Edit</button>
+                                        <button class="btn btn-danger">Delete</button>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-success">Preview</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!--end of table-container-->
+                </div>
+            </div><!--end of second row-->
+        </div><!--end of container-->
+
+        <!--CDN versions of JQuery and Popper.js-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <script src="../Resources/Bootstrap v4.1/js/bootstrap.min.js"></script>
+        <script src="../javascript/sidebar toggle.js"></script>
+    </body>
+</html>

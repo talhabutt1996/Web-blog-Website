@@ -1,0 +1,11 @@
+/************************
+      new post form
+*************************/
+.new-post-form-container button {
+  background: #2d1690;
+  color: #fff;
+  width: 60%;
+  padding: 12px 0;
+  display: block;
+  margin: 0 auto;
+}

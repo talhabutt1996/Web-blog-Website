@@ -1,0 +1,20 @@
+/***********************
+      Content Area
+************************/
+.content-area p.welcome-msg {
+    font-size: 130%;
+    background: #dff0d8;
+    color: #3c763d;
+    border-radius: 2px;
+    padding: 9px 0 9px 17px;
+    font-weight: 400;
+    margin: 8px 0 0;
+}
+
+.content-area table img {
+    width: 80px;
+}
+
+.content-area tbody tr td span:nth-child(1) {
+    margin-right: 20px;
+}

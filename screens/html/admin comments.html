@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="../Resources/Bootstrap v4.1/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="../css/admin comments.css"/>
+        <link rel="stylesheet" href="../css/common.css"/>
+        <title>Admin - Comments Section</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 navbar-container">
+                    <nav class="top-navbar">
+                        <button class="sidebar-toggler">
+                            <img src="../Resources/images/hamburger.png" alt="image" id="menu-icon"/>
+                        </button>
+                        <img src="../Resources/images/logo.png" alt="logo" id="logo"/>
+                        <p>Admin Panel</p>
+                    </nav><!--end of navbar-->
+                </div><!--end of first column-->
+            </div><!--end of first row-->
+
+            <div class="row sidebar-row">
+                <div class="col-lg-2 sidebar-container">
+                    <ul>
+                        <li>
+                            <a href="admin dashboard.html">
+                                <img src="../Resources/images/dashboard.png" alt="image" class="large-icon">
+                                <span>Dashboard</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="add new post.html">
+                                <img src="../Resources/images/new post.png" alt="image">
+                                <span>Add New Post</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="admin categories.html">
+                                <img src="../Resources/images/categories.png" alt="image">
+                                <span>Categories</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="admin access management.html">
+                                <img src="../Resources/images/manage admins.png" alt="image" class="small-icon">
+                                <span>Manage Admins</span>
+                            </a>
+                        </li>
+                        <li class="active-tab">
+                            <a href="#">
+                                <img src="../Resources/images/comments.png" alt="image">
+                                <span>Comments</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="blog home.html">
+                                <img src="../Resources/images/live blog.png" alt="image">
+                                <span>Live blog</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="admin login.html">
+                                <img src="../Resources/images/logout.png" alt="image">
+                                <span>Logout</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div><!--end of first column-->
+
+                <div class="col-lg-10 content-area">
+                    <p>Unapproved Comments</p>
+
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-hover table-sm">
+                            <thead>
+                                <tr>
+                                    <th>No.</th>
+                                    <th>Username</th>
+                                    <th>Date &amp; Time</th>
+                                    <th>Comment</th>
+                                    <th>Approve</th>
+                                    <th>Delete</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Peter</td>
+                                    <td>April 20, 2018</td>
+                                    <td class="comment-container">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Phasellus sagittis risus.
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-primary">Approve</button>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-danger">Delete</button>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-success">Preview</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Jack</td>
+                                    <td>April 21, 2018</td>
+                                    <td class="comment-container">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Phasellus sagittis risus.
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-primary">Approve</button>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-danger">Delete</button>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-success">Preview</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!--end of table-container-->
+
+                    <p class="approved-text">Approved Comments</p>
+
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-hover table-sm">
+                            <thead>
+                                <tr>
+                                    <th>No.</th>
+                                    <th>Username</th>
+                                    <th>Date &amp; Time</th>
+                                    <th>Comment</th>
+                                    <th>Approved By</th>
+                                    <th>Delete</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Peter</td>
+                                    <td>April 20, 2018</td>
+                                    <td class="comment-container">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Phasellus sagittis risus.
+                                    </td>
+                                    <td>Michael</td>
+                                    <td>
+                                        <button class="btn btn-danger">Delete</button>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-success">Preview</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Jack</td>
+                                    <td>April 21, 2018</td>
+                                    <td class="comment-container">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Phasellus sagittis risus.
+                                    </td>
+                                    <td>Tom</td>
+                                    <td>
+                                        <button class="btn btn-danger">Delete</button>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-success">Preview</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!--end of second table-container-->
+                </div><!--end of content area-->
+            </div><!--end of second row-->
+        </div><!--end of container-->
+
+        <!--CDN versions of JQuery and Popper.js-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <script src="../Resources/Bootstrap v4.1/js/bootstrap.min.js"></script>
+        <script src="../javascript/sidebar toggle.js"></script>
+    </body>
+</html>

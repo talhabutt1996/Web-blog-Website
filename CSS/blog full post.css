@@ -1,0 +1,100 @@
+.post-container .post-publish-date {
+  float: right;
+  margin-top: 4px;
+}
+
+.post-container img {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.post-container p {
+  text-align: justify;
+}
+
+/**************************
+  recent posts Container
+**************************/
+.recent-posts-container {
+  margin-top: 150px;
+}
+
+/**************************
+  Comments Container
+**************************/
+.comments-container {
+  background: #e7e3e3;
+}
+
+.comments-container h1 {
+  padding: 10px 0 0 10px;
+}
+
+.user-comment-container {
+  background: #c9c6c6;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.user-comment-container img {
+  width: 10%;
+  vertical-align: middle;
+}
+
+.user-comment {
+  display: inline-block;
+  width: 86%;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
+.user-comment p {
+  font-size: 90%;
+  padding-top: 8px;
+}
+
+.user-comment h5 {
+  margin: 0;
+}
+
+.comment-post-date {
+  margin: 0 20px 0 0;
+  font-size: 15px;
+  color: rgb(90, 77, 77);
+}
+
+
+/**************************
+ Comments Form Container
+**************************/
+.row.comment-form-row {
+  margin-top: 45px;
+}
+
+.comment-form-container {
+  background: #e7e3e3;
+  padding: 15px;
+  margin-bottom: 40px;
+}
+
+.comment-form-container h1 {
+  margin: 0 0 15px 0;
+}
+
+.comment-form-container .comment-field {
+  height: 100px;
+  resize: none;
+}
+
+.comment-form-container button {
+  padding: 10px 50px;
+}
+
+
+/***********************************
+      info message block
+************************************/
+.comment-form-container #info-message-block {
+  margin-bottom: 20px;
+}
+

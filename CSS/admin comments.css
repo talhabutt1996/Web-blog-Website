@@ -1,0 +1,12 @@
+.comment-container {
+  text-align: justify;
+  width: 35%;
+}
+
+.content-area .table-responsive table {
+  margin: 10px 0 0 0;
+}
+
+.content-area .approved-text {
+  margin-top: 8px;
+}

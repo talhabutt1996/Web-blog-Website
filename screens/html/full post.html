@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" href="../Resources/Bootstrap v4.1/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="../css/full post.css"/>
+        <link rel="stylesheet" href="../css/common.css"/>
+        <title>Introduction To CSS Flexbox</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg top-navbar" id="blog-navbar">
+            <a class="navbar-brand" href="#">
+                <img src="../Resources/images/logo.png" alt="logo" id="logo"/>
+                <p>Web Technologies Blog</p>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content">
+                <span class="navbar-toggler-icon">
+                    <i class="ion-navicon-round"></i>
+                </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar-content">
+                <form class="form-inline ml-auto">
+                    <input type="text" name="search-field" placeholder="Search" class="form-control"/>
+                    <button type="submit" class="btn btn-success">Search</button>
+                </form>
+            </div>
+        </nav><!--end of navbar-->
+
+        <div class="container blog-body">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="post-container clearfix">
+                        <h1 class="post-title">Introduction to CSS Flexbox</h1>
+                        <small class="post-category">Category: CSS</small>
+                        <small class="post-publish-date">Published On: April 22, 2018</small>
+                        <img class="post-banner" src="../Resources/images/css banner.jpg"/>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Aliquam fringilla convallis magna ac suscipit. Aliquam a
+                            ante diam. Nam ullamcorper risus sem, non iaculis odio volutpat sed.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Aliquam fringilla convallis magna ac suscipit. Aliquam a
+                            ante diam. Nam ullamcorper risus sem, non iaculis odio volutpat sed.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Aliquam fringilla convallis magna ac suscipit. Aliquam a
+                            ante diam. Nam ullamcorper risus sem, non iaculis odio volutpat sed.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                        <p>
+                            Aliquam fringilla convallis magna ac suscipit. Aliquam a
+                            ante diam. Nam ullamcorper risus sem, non iaculis odio volutpat sed.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Aliquam fringilla convallis magna ac suscipit. Aliquam a
+                            ante diam. Nam ullamcorper risus sem, non iaculis odio volutpat sed.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                        <p>
+                            Aliquam fringilla convallis magna ac suscipit. Aliquam a
+                            ante diam. Nam ullamcorper risus sem, non iaculis odio volutpat sed.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Aliquam fringilla convallis magna ac suscipit. Aliquam a
+                            ante diam. Nam ullamcorper risus sem, non iaculis odio volutpat sed.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Aliquam fringilla convallis magna ac suscipit. Aliquam a
+                            ante diam. Nam ullamcorper risus sem, non iaculis odio volutpat sed.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                        <p>
+                            Aliquam fringilla convallis magna ac suscipit. Aliquam a
+                            ante diam. Nam ullamcorper risus sem, non iaculis odio volutpat sed.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Aliquam fringilla convallis magna ac suscipit. Aliquam a
+                            ante diam. Nam ullamcorper risus sem, non iaculis odio volutpat sed.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Aliquam fringilla convallis magna ac suscipit. Aliquam a
+                            ante diam. Nam ullamcorper risus sem, non iaculis odio volutpat sed.
+                        </p>
+                    </div>
+                </div><!--end of first column-->
+
+                <div class="col-md-3">
+                    <div class="row blog-row">
+                        <div class="col post-categories-container">
+                            <h2>Categories</h2>
+                            <a href="#">CSS</a>
+                            <a href="#">Javascript</a>
+                            <a href="#">Bootstrap</a>
+                            <a href="#">HTML</a>
+                            <a href="#">PHP</a>
+                            <a href="#">MySQL</a>
+                            <a href="#">REACT</a>
+                            <a href="#">NodeJS</a>
+                        </div>
+                    </div><!--end of first nested row-->
+
+                    <div class="row second-row">
+                        <div class="col recent-posts-container">
+                            <h2>Recent Posts</h2>
+                            <div class="recent-post">
+                                <img src="../Resources/images/css banner.jpg" alt="css"/>
+                                <p>Introduction to CSS Flexbox</p>
+                                <small>April 21, 2018</small>
+                            </div>
+
+                            <div class="recent-post">
+                                <img src="../Resources/images/js banner.png" alt="css"/>
+                                <p>Javascript Introduction</p>
+                                <small>April 21, 2018</small>
+                            </div>
+                        </div>
+                    </div><!--end of second nested row-->
+                </div><!--end of second column-->
+            </div><!--end of first row-->
+
+            <div class="row comment-row second-row">
+                <div class="col-md-9">
+                    <div class="comments-container">
+                        <h1>Comments</h1>
+                        <div class="user-comment-container">
+                            <img src="../Resources/images/user.png" alt="user"/>
+                            <div class="user-comment">
+                                <h2>John</h2>
+                                <small class="comment-post-date">April 20, 2018</small>
+                                <small>9:44:49 PM</small>
+                                <p>
+                                    Aliquam fringilla convallis magna ac suscipit. Aliquam a
+                                    ante diam. Nam ullamcorper risus sem, non iaculis odio volutpat sed.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="user-comment-container">
+                            <img src="../Resources/images/user.png" alt="user"/>
+                            <div class="user-comment">
+                                <h2>Michael</h2>
+                                <small class="comment-post-date">April 20, 2018</small>
+                                <small>2:24:12 PM</small>
+                                <p>
+                                    Aliquam fringilla convallis magna ac suscipit. Aliquam a
+                                    ante diam. Nam ullamcorper risus sem, non iaculis odio volutpat sed.
+                                </p>
+                            </div>
+                        </div>
+                    </div><!--end of comments container-->
+                </div><!--end of first column-->
+            </div><!--end of second row-->
+
+            <div class="row second-row">
+                <div class="col-md-9">
+                    <div class="comment-form-container">
+                        <form class="">
+                            <h1>Leave a comment</h1>
+                            <div class="form-group">
+                                <input type="text" name="name-field" class="form-control" placeholder="Name"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="email-field" class="form-control" placeholder="Email"/>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control comment-field" name="comment-field" placeholder="Comment">
+                                </textarea>
+                            </div>
+                            <button class="btn btn-success">Post Comment</button>
+                        </form>
+                    </div><!--end of form container-->
+                </div><!--end of first column-->
+            </div><!--end of third row-->
+
+        </div><!--end of second container-->
+
+        <div class="blog-footer">
+            <h1>Contact Us</h1>
+            <ul>
+                <li class="email-link">
+                    <i class="ion-at"></i>
+                    email@gmail.com
+                </li>
+                <li>
+                    <i class="ion-social-facebook"></i>
+                    Facebook
+                </li>
+            </ul>
+        </div><!--end of footer-->
+
+        <!--CDN versions of JQuery and Popper.js-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <script src="../Resources/Bootstrap v4.1/js/bootstrap.min.js"></script>
+    </body>
+</html>

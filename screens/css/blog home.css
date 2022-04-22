@@ -1,0 +1,28 @@
+/**************************
+       Post Container
+***************************/
+.post-comment-count {
+    background: #8c8c8c;
+    float: right;
+}
+
+.read-more-btn {
+    background: #2d1690;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 85%;
+    padding: 7px 25px;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
+
+/***************************
+         Pagination
+****************************/
+.pagination-row {
+    padding-bottom: 13px;
+}
+
+

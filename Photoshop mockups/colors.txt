@@ -1,0 +1,10 @@
+#2d1690
+#371ab1
+#b7b7b7  light gray
+#dff0d8
+#3c763d
+#f2f2f2
+#dc3545
+#28a745    success button
+#e7e3e3     light gray post container background
+#8c8c8c     comment badge background - dark gray

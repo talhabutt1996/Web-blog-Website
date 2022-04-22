@@ -1,0 +1,57 @@
+/************************
+      login form
+*************************/
+
+.login-form-container {
+    margin: 0 auto;
+    padding: 80px 15px 0 19px;
+    box-sizing: border-box;
+}
+
+.login-form label,
+.login-form p {
+    color: #2d1690;
+}
+
+.login-form p {
+    font-size: 200%;
+}
+
+.form-group img {
+    width: 30px;
+}
+
+.input-group-text {
+    background: #b7b7b7;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    z-index: 2;
+}
+
+.password-group .input-group-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form-group input {
+    border-radius: 8px;
+    border: 1px solid #b7b7b7;
+    font-size: 19px;
+    padding-left: 15px;
+    position: relative;
+    left: -4px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.login-form-container .login-form button {
+    width: 100%;
+    border-radius: 6px;
+    padding: 7px 0;
+    background: #2d1690;
+    color: #fff;
+    margin-top: 15px;
+    font-size: 100%;
+}

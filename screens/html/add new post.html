@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="../Resources/Bootstrap v4.1/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="../css/add new post.css"/>
+        <link rel="stylesheet" href="../css/common.css"/>
+        <title>Admin - Add New Post</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 navbar-container">
+                    <nav class="top-navbar">
+                        <button class="sidebar-toggler">
+                            <img src="../Resources/images/hamburger.png" alt="image" id="menu-icon"/>
+                        </button>
+                        <img src="../Resources/images/logo.png" alt="logo" id="logo"/>
+                        <p>Admin Panel</p>
+                    </nav><!--end of navbar-->
+                </div><!--end of first column-->
+            </div><!--end of first row-->
+
+            <div class="row sidebar-row">
+                <div class="col-lg-2 sidebar-container">
+                    <ul>
+                        <li>
+                            <a href="admin dashboard.html">
+                                <img src="../Resources/images/dashboard.png" alt="image" class="large-icon">
+                                <span>Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="active-tab">
+                            <a href="#">
+                                <img src="../Resources/images/new post.png" alt="image">
+                                <span>Add New Post</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="admin categories.html">
+                                <img src="../Resources/images/categories.png" alt="image">
+                                <span>Categories</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="admin access management.html">
+                                <img src="../Resources/images/manage admins.png" alt="image" class="small-icon">
+                                <span>Manage Admins</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="admin comments.html">
+                                <img src="../Resources/images/comments.png" alt="image">
+                                <span>Comments</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="blog home.html">
+                                <img src="../Resources/images/live blog.png" alt="image">
+                                <span>Live blog</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="admin login.html">
+                                <img src="../Resources/images/logout.png" alt="image">
+                                <span>Logout</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div><!--end of first column-->
+
+                <div class="col-lg-10 content-area">
+                    <p>Add New Post</p>
+                    <!-- <p class="welcome-msg">Welcome Jane Doe!</p> -->
+
+                    <div class="new-post-form-container">
+                        <form>
+                            <div class="form-group">
+                                <label for="post-title-field">Post Title</label>
+                                <input type="text" name="post-title-field" id="post-title-field" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="post-category-field">Post Category</label>
+                                <input type="text" name="post-category-field" id="post-category-field" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="post-banner-field">Post Banner</label>
+                                <input type="file" name="post-banner-field" id="post-banner-field" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="post-content-field">Post Content</label>
+                                <input type="text" name="post-content-field" id="post-content-field" class="form-control">
+                            </div>
+                            <button class="btn">Add New Post</button>
+                        </form>
+                    </div><!--end of new post form container-->
+                </div>
+            </div><!--end of second row-->
+        </div><!--end of container-->
+
+        <!--CDN versions of JQuery and Popper.js-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <script src="../Resources/Bootstrap v4.1/js/bootstrap.min.js"></script>
+        <script src="../javascript/sidebar toggle.js"></script>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+.add-admin-form {
+  margin: 15px auto 0 auto;
+  padding: 0 0 0 4%;
+}
+
+.content-area .add-admin-form input {
+  width: 46%;
+  padding: 11px;
+  margin: 0 30px 20px 0;
+  border-radius: 10px;
+}
+
+.content-area .add-admin-form button {
+  width: 47%;
+  padding: 11px;
+  border-radius: 10px;
+  margin: 0 auto 0 auto;
+}
+
+@media only screen and (max-width: 827px) {
+  .content-area .add-admin-form input {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+}
